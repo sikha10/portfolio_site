@@ -1,0 +1,135 @@
+#nav_bar {
+    margin-top: -80px;
+    position: fixed;
+    display: flex;
+    font-family: 'Macondo', cursive;
+    background-color: white;
+}
+
+#body {
+    margin-top: 80px;
+}
+
+.nav_bar_item {
+    margin-left: 40px;
+}
+
+#Name {
+    margin-top: -6px;
+}
+
+.nav_bar_item {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_items:hover {
+    text-decoration: underline;
+    color: rgb(216, 108, 20);
+}
+
+#reg_butt {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+}
+
+#reg_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#login_butt {
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+}
+
+#login_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#logout_butt {
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+}
+
+#logout_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#head {
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+#videos {
+    margin-left: 120px;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+#row_vids {
+    display: flex;
+}
+
+#row_desc {
+    display: flex;
+}
+
+.videos {
+    font-family: 'Macondo', cursive;
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    margin-top: 120px;
+    margin-left: 170px;
+}
+
+.description {
+    font-family: 'Macondo', cursive;
+    width: 500px;
+    margin-left: 170px;
+}
+
+
+

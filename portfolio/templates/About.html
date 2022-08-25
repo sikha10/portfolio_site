@@ -1,0 +1,43 @@
+{% extends "main.html" %}
+
+{% load static %}
+
+{% block header %}
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'About.css' %}">
+</head>
+{% endblock %}
+<body>
+{% block body %}
+<div id="body">
+    <div id="body_left">
+        <div id="body_text">
+            <h1 id="About">About</h1>
+            <h3 class="body_text_item" id="Main_About_Text">
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Sint fuga, hic necessitatibus 
+                atque minima explicabo quibusdam quisquam obcaecati fugiat, omnis 
+                quidem unde id. Minima, enim voluptates quasi harum repellendus 
+                aperiam!Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Sint fuga, hic explicabo quibusdam quisquam obcaecati fugiat, omnis 
+                quidem unde id. Minima, elit.
+            </h3>
+        </div>
+
+        <div id="body_photo">
+            <img src="https://bit.ly/3yPf2kk" alt="man" width="400px">
+        </div>
+    </div>
+
+    <div id="bottom_project_button">
+        <a href="/projects"><h2>Projects</h2></a>
+    </div>
+</div>
+{% endblock %}
+</body>

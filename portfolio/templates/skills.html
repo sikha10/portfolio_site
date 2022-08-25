@@ -1,0 +1,109 @@
+{% extends "main.html" %}
+
+{% load static %}
+
+{% block header %}
+<head>
+    <meta charset="UTF-8">
+    <title>Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'skills.css' %}">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['know',     70],
+          ['unknow',      30],
+        ]);
+
+        var options = {
+            title: 'Python',
+            pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['know',     50],
+          ['unknow',      50],
+        ]);
+
+        var options = {
+            title: 'Java',
+            pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart2'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['know',     60],
+        ['unknow',      40],
+        ]);
+
+        var options = {
+            title: 'Javascript',
+            pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart3'));
+        chart.draw(data, options);
+    }
+    </script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['know',     35],
+          ['unknow',      65],
+        ]);
+
+        var options = {
+            title: 'C++',
+            pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart4'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+{% endblock %}
+
+<body>
+    {% block body %}
+    <div id="body">
+        <div id="donutchart" style="width: 700px; height: 500px; margin-top: 100px;"></div>
+        <div id="donutchart2" style="width: 700px; height: 500px; margin-top: -490px; margin-left: 800px;"></div>
+        <div id="donutchart3" style="width: 700px; height: 500px; margin-top: 100px;"></div>
+        <div id="donutchart4" style="width: 700px; height: 500px; margin-top: -490px; margin-left: 800px;"></div>
+    </div>
+    {% endblock %}
+    
+    </body>

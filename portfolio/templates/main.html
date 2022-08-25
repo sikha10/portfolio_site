@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% block header %}
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+{% endblock %}
+<body>
+    <div id="nav_bar">
+        <a href="/" class="nav_bar_item" id="Name"><h2>Home</h2></a>
+        <a href="/about" class="nav_bar_item nav_items"><h3>About</h3></a>
+        <a href="/projects" class="nav_bar_item nav_items"><h3>Projects</h3></a>
+        <a href="/skills"  class="nav_bar_item nav_items"><h3>Skills</h3></a>
+        <a href="/contact"  class="nav_bar_item nav_items"><h3>Contact</h3></a>
+        <a href="/login"  class="nav_bar_item nav_items" id="login_butt"><h3>Login</h3></a>
+        <a href="/register"  class="nav_bar_item nav_items" id="reg_butt"><h3>Registration</h3></a>
+        <a href="/logout"  class="nav_bar_item nav_items" id="logout_butt"><h3>Logout</h3></a>
+    </div>
+{% block body %}
+    <div id="body">
+        <div id="left_body">
+            <h1>Hello</h1>
+            <h2 id="username">{{ username }}</h2>
+            <p>Welcome to my portfolio site</p>
+        </div>
+        <div id="body_photo"><img src="/static/man.png" alt="men" width="290px"></div>
+        <div id="bottom_about_button">
+            <a href="/about"><h2>About</h2></a>
+        </div>
+    </div>
+    
+
+{% endblock%}
+</body>
+</html>

@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+
+{% load static %}
+
+{% block header %}
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+</head>
+{% endblock %}
+
+<body>
+{% block body %}
+<div id="body">
+    <form action="/" method="POST">{% csrf_token %}
+        <h2 id="form_header">Login</h2>
+        <label for="name" id="label1">Name</label><br>
+        <input type="text" id="name" placeholder="Name" name="name"><br><br>
+        
+        <label for="password" id="label2">Password</label><br>
+        <input type="password" id="password" placeholder="Password" name="password"><br><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</div>
+{% endblock %}
+    
+</body>

@@ -1,0 +1,35 @@
+{% extends "main.html" %}
+
+{% load static %}
+
+{% block header %}
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'contact.css' %}">
+</head>
+{% endblock %}
+
+<body>
+{% block body %}
+<div id="body">
+    <div id="contacts">
+        <div id="number"><h1>+0 000 000 000</h1></div>
+        <div id="mail"><h1>someone@gmail.com</h1></div>
+        <div id="twitter"><a href="https://twitter.com/home"><h1>Twitter</h1></a></div>
+    </div>
+
+
+    <div id="icons">
+        <div><img src="https://bit.ly/3N23bne" alt="Number: " width="30px"></div>
+        <div id="mail_icon" ><img src="https://bit.ly/3x0awwB" alt="Mail: " width="30px"></div>
+        <div id="twitter_icon"><img src="https://bit.ly/3m1xtuy" alt="Twitter: " width="30px"></div>
+    </div>
+    
+</div>
+{% endblock %}
+
+</body>

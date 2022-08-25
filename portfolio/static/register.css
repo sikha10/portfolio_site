@@ -1,0 +1,173 @@
+#nav_bar {
+    margin-top: -8px;
+    position: fixed;
+    display: flex;
+    font-family: 'Macondo', cursive;
+}
+
+.nav_bar_item {
+    margin-left: 40px;
+}
+
+#Name {
+    margin-top: -6px;
+}
+
+.nav_bar_item {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_items:hover {
+    text-decoration: underline;
+    color: rgb(216, 108, 20);
+}
+
+#login_butt {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+}
+
+#login_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#login_butt {
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+}
+
+#login_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#reg_butt {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+}
+
+#reg_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#logout_butt {
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+}
+
+#logout_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#body {
+    font-family: 'Macondo', cursive;
+}
+
+#body form {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -150px;
+}
+
+#form_header {
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+#label1 {
+    font-size: 25px;
+}
+
+#label2 {
+    font-size: 25px;
+}
+
+#name2 {
+    font-size: 15px;
+    height: 25px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#password2 {
+    font-size: 15px;
+    height: 25px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    font-size: 15px;
+}
+
+#submit:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}

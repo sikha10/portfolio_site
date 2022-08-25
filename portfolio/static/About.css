@@ -1,0 +1,137 @@
+#nav_bar {
+    margin-top: -170px;
+    position: fixed;
+    display: flex;
+    font-family: 'Macondo', cursive;
+    background-color: white;
+}
+
+.nav_bar_item {
+    margin-left: 40px;
+}
+
+#Name {
+    margin-top: -6px;
+}
+
+#reg_butt {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+}
+
+#reg_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#login_butt {
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+    text-decoration: none;
+}
+
+#login_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#logout_butt {
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Macondo', cursive;
+}
+
+#logout_butt:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 115, 18);
+}
+
+#body{
+    margin-top: 170px;
+    font-family: 'Macondo', cursive;
+}
+
+#body_left {
+    margin-left: 220px;
+    margin-top: 130px;
+    display: flex;
+}
+
+#body_photo {
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+#Main_About_Text {
+    width: 400px;
+    margin-top: 30px;
+}
+
+#bottom_project_button a{
+    text-decoration: none;
+    color: white;
+}
+
+#bottom_project_button{
+    margin-left: 230px;
+    margin-top: -140px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(235, 115, 18);
+    transition: ease-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#bottom_project_button:hover {
+    background-color: rgb(235, 115, 18);
+    box-shadow:inset 200px 0 0 0 rgb(235, 155, 18);
+}
+
+.nav_bar_item {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_items:hover {
+    text-decoration: underline;
+    color: rgb(216, 108, 20);
+}
