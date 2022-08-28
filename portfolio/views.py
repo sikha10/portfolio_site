@@ -58,11 +58,11 @@ def login(request):
             Profile.objects.create(username=username, password=password)
         else:
             return HttpResponse("this name or password is already in use")
-    return render(request, "login.html") 
+    return render(request, "login.html")
 
 
 def registration(request):
-    return render(request, "register.html") 
+    return render(request, "register.html")
 
 
 def logout(request):
@@ -70,6 +70,6 @@ def logout(request):
         request.session.pop("username")
     except:
         return HttpResponse("you can not log out")
-    return redirect("/") 
+    return redirect("/")
 
     
